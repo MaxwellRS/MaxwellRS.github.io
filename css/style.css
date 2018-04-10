@@ -144,3 +144,7 @@ a {
   color: white;
   text-decoration: none;
 }
+mark {
+  background: none;
+  color: white;
+}
