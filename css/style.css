@@ -32,7 +32,7 @@ border-style: solid;
 border-radius: 20px;
 }
 .extra-space {
-  margin-top: 60px;
+  margin-top: 10%;
 }
 .personal-space {
   margin-top: 60px;
@@ -50,8 +50,15 @@ h2 {
   margin-bottom: 60px;
   margin-left: 400px;
   margin-right: 400px;
-  font-size:25px;
+  font-size:24px;
   border-radius: 20px;
+}
+h3 {
+  height: 40px;
+  background-color: #4CAF50;
+  border-radius: 20px;
+  font-size: 28px;
+  margin-top: 15%;
 }
 h5 {
   margin-top:50px;
@@ -105,15 +112,9 @@ li a {
     padding: 2px 16px;
     text-decoration: none;
 }
-h2 a {
+h3 a {
   display: block;
   color: white;
-}
-h2 a:hover {
-  text-decoration: none;
-  color: white;
-  background-color: #4CAF50;
-  border-radius: 20px;
 }
 li a.active {
     background-color: #4CAF50;
